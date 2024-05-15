@@ -17,7 +17,7 @@ const LandingPage = ({mode, setMode}) => {
     <HeroBanner/>
     <AccordionSection/>
     <Abc/>
-     <Footer/>
+     <Footer mode={mode} setMode={setMode} />
     </Box>
   </Container>
        

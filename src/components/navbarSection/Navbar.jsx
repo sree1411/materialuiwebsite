@@ -178,6 +178,7 @@ function Navbar({mode, setMode}) {
             </Menu>
           </Box>
           
+          
         </Toolbar>
       </Container>
     </AppBar>

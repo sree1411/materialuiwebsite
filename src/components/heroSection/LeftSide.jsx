@@ -3,9 +3,9 @@ import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-
  
-
+ 
+ 
 const card = (
   <React.Fragment>
     <CardContent >
@@ -26,12 +26,18 @@ const card = (
          <h4>Java script</h4>
          <h4>React Js</h4>
       </Typography>
+       
+      
     </CardContent>
    
   </React.Fragment>
 );
 
 export default function LeftSide() {
+
+
+ 
+
   return (
     <Box 
 >
@@ -42,6 +48,7 @@ export default function LeftSide() {
         height: "300px",
         widows:"100%"
       }}>{card}</Card>
+    
     </Box>
   );
 }
